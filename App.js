@@ -1,5 +1,6 @@
 import { StyleSheet, Text, View } from 'react-native';
 import { GluestackUIProvider } from '@/components/ui/gluestack-ui-provider';
+import { Button, ButtonText } from '@/components/ui/button';
 import '@/global.css';
 
 
@@ -8,8 +9,10 @@ export default function App() {
     
     <GluestackUIProvider mode="dark">
       <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-        
+      <Text style={styles.negrito}>aula do botão</Text>
+        <Button variant="secondary" size="default">
+      <ButtonText className='font-bold uppercase'>Button</ButtonText>
+    </Button>
     </View>
     </GluestackUIProvider>
   
@@ -23,4 +26,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  negrito:{
+    fontWeight:'bold'
+  }
 });
