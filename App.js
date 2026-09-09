@@ -11,7 +11,7 @@ export default function App() {
       <View style={styles.container}>
       <Text style={styles.negrito}>aula do botão</Text>
         <Button variant="secondary" size="default">
-      <ButtonText className='font-bold uppercase'>Button</ButtonText>
+      <ButtonText className='font-bold uppercase'>button</ButtonText>
     </Button>
     </View>
     </GluestackUIProvider>
