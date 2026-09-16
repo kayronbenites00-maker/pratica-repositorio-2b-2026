@@ -3,10 +3,10 @@ import { Text } from '@/components/ui/text';
 
 
 
-export default function home(){
+export default function Details(){
   return (
     <>
-    <Text>blabla</Text>
+    <Text>detalhes</Text>
     </>
   )
 }
