@@ -4,7 +4,7 @@ import { Link } from 'expo-router';
 export default function home(){
   return (
     <>
-    <Text>la ele pro max</Text>
+    <Text>Pagina principal</Text>
     <Link href='/Details'>Detalhes</Link>
     </>
   )
