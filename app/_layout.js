@@ -4,10 +4,11 @@ import {Stack} from "expo-router";
 export default function RootLayout() {
     return(
         <GluestackUIProvider mode="light">
-        <stack>
-            <Stack.Screen name="index" options={{headerTitle:"Pagina Principal"}}/>
+        {/*<Stack screenOptions={{headerShown: false}}>*/}
+        <Stack>
+            <Stack.Screen name="home" options={{headerTitle:"Pagina Principal"}}/>
             <Stack.Screen name="Details" options={{headerTitle:"Detalhes "}}/>
-        </stack>
+        </Stack>
 
         </GluestackUIProvider>
     )
