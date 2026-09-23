@@ -20,7 +20,7 @@ export default function Details(){
     <Text size='md'>
       parametro recebido de outra tela:<Text className='font-extrabold text-amber-700'>{name? name : "sem parametro"}</Text>
     </Text>
-    <Button size='lg' action="primary" onPress={()=> router.back()}
+    <Button size='lg' onPress={()=> router.back()}
       className='bg-emerald-600 data-[active=true]:bg-emerald-500 data-[houver=true]:bg-emerald-700'
       >
       <ButtonText className='font-bold uppercase' >Voltar</ButtonText>
